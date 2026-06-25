@@ -1,6 +1,6 @@
 # LLM-Powered YouTube Comment Automation
 
-Overview
+## Overview
 
 This project automates the process of responding to YouTube comments using OpenAI's GPT models. It combines Python, Selenium browser automation, and LLM-powered natural language generation to retrieve comments, generate context-aware responses, and publish replies across multiple YouTube channels.
 
@@ -20,7 +20,7 @@ Features
 
 - Processes multiple YouTube channels sequentially through an automated workflow.
 
-Workflow
+## Workflow
 
 - Launch YouTube Studio using an authenticated Chrome profile.
 
@@ -34,7 +34,7 @@ Workflow
 
 - Repeat the process for the remaining configured channels.
 
-Technologies
+## Technologies
 
 - Python
 
@@ -46,10 +46,10 @@ Technologies
 
 - Chrome WebDriver
 
-Architecture
+## Architecture
 
 The application integrates Selenium for browser automation with the OpenAI API for LLM-powered response generation. Comments are extracted from YouTube Studio, processed through the LLM to generate contextual replies, and automatically published back to the corresponding channel.
 
-Instance Management
+## Instance Management
 
-instance_manage.py orchestrates the automation cycle by launching successive instances of the application for each configured YouTube channel, enabling sequential processing across multiple channels.
+*instance_manage.py* orchestrates the automation cycle by launching successive instances of the application for each configured YouTube channel, enabling sequential processing across multiple channels.
